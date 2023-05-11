@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link class="stylesheet" rel="stylesheet" href="styles/light.css">
+    <link rel="stylesheet" href="animations/animations.css">
+    <link rel="icon" type="X-icon" href="pictures/favicon.png">
+    <title>Keymaker Neno</title>
+</head>
+<body id="top" onresize="resizeImg()">
+    <nav class="grid" style="gap:0;">
+        <div class="center-div logo-nav nav-link" style="grid-row: span 2; border-top-right-radius: 20px; background-color: var(--nav-color);"><a href="#top"><img style="max-height: 50px; padding: 3px;" src="pictures/neno-white-logo-narow.png" alt=""></a></div>
+        <div class="nav-link no-media"></div>
+        <div class="center-div nav-link slogan-div"><p class="slogan" style="padding: 2px 0 2px 0; color: var(--secondary-text-color);">Make your self a spare key before you loose the last one you have</p></div>
+        <div class="no-media nav-link num-opt"><a style="font-weight: 100;" class="center-div no-media" href="#contacts"><p class="slogan"> +389 78/339-071  +389 78/339-072 </p></a></div>
+        <div class="center-div lang-opt"><button style="background-color: transparent; font-weight: 100; font-size: 13px; color: var(--secondary-text-color); margin-right: 3px;"><p class="slogan">MK</p></button><button style="margin-left: 3px; background-color: transparent; font-weight: 100; font-size: 13px; color: var(--secondary-text-color);"><p class="slogan">EN</p></button></div>
+        <div class="center-div nav-link grid-row-2 services-link" ><a href="#services">SERVICES</a></div>
+        <div class="center-div nav-link grid-row-2 iseo-link" ><a href="iseo.html">ISEO</a></div>
+        <div class="center-div nav-link grid-row-2 about-link" ><a href="#about-us">ABOUT</a></div>
+        <div class="center-div nav-link grid-row-2 contact-link" ><a href="#contacts">CONTACT</a></div>
+        <div class="center-div nav-link grid-row-2 theme-button" ><button><img class="center-div" src="pictures/toggle-button-white.png" alt="X"></button></div>
+    </nav>
+    <main>
+    <div class="carousel">
+      <button class="carousel_btn-left carousel_btn" style="font-size: 25px;"> < </button>
+    <div class="carousel_track">
+      <ul class="carousel_list">
+          <li class="carousel_img-container current"><img class="carousel-img" src="pictures/1.jpg" alt=""></li>
+          <li class="carousel_img-container"><img class="carousel-img" src="pictures/2.jpg" alt=""></li>
+          <li class="carousel_img-container"><img class="carousel-img" src="pictures/3.png" alt=""></li>
+          <li class="carousel_img-container"><img class="carousel-img" src="pictures/kondor.jpg" alt=""></li>
+          <li class="carousel_img-container"><img class="carousel-img" src="pictures/matrix.webp" alt=""></li>
+      </ul>
+    </div>
+      <button class="carousel_btn-right carousel_btn" style="font-size: 25px;"> > </button>
+      <div class="carousel_indicators">
+        <button class="carousel_indicator current"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+        <button class="carousel_indicator"></button>
+    </div>
+    </div>
+        <section class="emergency-call">
+            <div><button class="emergency-close-btn" style="color: var(--secondary-text-color);">X</button></div>
+            <div class="center-div" style="padding: 5px 0 5px 0;"><p style="font-size: 15px;">For urgent help at any time of the day call on 078/339-071</p></div>
+            <div class="center-div"><a class="emergency-call-btn center-div" href="tel:+38978339071">Call now!</a></div>
+        </section>
+
+        <p id="services" style="padding-top:45px;"></p>
+        <section><!--Services-->
+            <h1>SERVICES</h1>
+            <div style="  justify-content: space-evenly;" class="flex-container">
+                <a class="tiles-big" href="home-keys.html">
+                    <img class="img-big" src="pictures/services/door-keys.png" alt="door-keys">
+                    <p class="txt-big txt-center">Keys for inside doors, locks, safes and more</p>
+                </a>
+                <a class="tiles-big" href="">
+                    <img class="img-big" src="pictures/services/car-keys.png" alt="car-keys">
+                    <p class="txt-big txt-center">Car keys, remotes for garage doors, aftermarket car remotes, batteries and shells</p>
+                </a>
+                <a class="tiles-big" href="">
+                    <img class="img-big" src="pictures/services/iseo-logo.png" alt="ISEO">
+                    <p class="txt-big txt-center">High-end Italian cylinders, padlocks, locks etc.</p>
+                </a>
+                <a class="tiles-big" href="">
+                    <img class="img-big" src="pictures/services/launch.png" alt="DTC">
+                    <p class="txt-big txt-center">DTC reading, fixing DPF, EGR, chip tunning</p>
+                </a>
+            </div>
+        </section>
+        <p id="about-us" style="padding-top:45px;"></p>
+        <section><!--About us-->
+            <h1>ABOUT US</h1>
+            <div class="flex-container" style="justify-content:center;">
+            <article class="tiles-wide">
+                <img class="about-img" src="pictures/matrix.webp" alt="dolphin">
+            </article>
+            <article class="tiles-wide">
+                <h2 style="padding-bottom: 10px;">Keymaker NENO works and improves since 2007</h2>
+                <ul class="about">
+                    <li>Making door keys</li>
+                    <li>Making car keys</li>
+                    <li>ECU coding</li>
+                    <li>IMMO coding</li>
+                    <li>IC replacing and coding</li>
+                </ul>
+            </article>
+        </div>
+        </section>
+
+        <section style="padding-top:45px;"><!--News-->
+            <h1 style="padding-bottom: 10px;">NEWS</h1>
+            <div class="flex-container" style="justify-content: center; gap: 3rem;">
+            <article class="txt-big">
+                <img class="img-big rounded-img" src="pictures/flex.png" alt="FLEX">
+                <ul>
+                    <li class="padding-7-0-5-3">Software fixes for DPF, EGR, AdBlue, hot start, cold start etc.</li>
+                    <li class="padding-7-0-5-3">Chip tunning</li>
+                </ul>
+            </article>
+            <article class="txt-big">
+                <img class="img-big rounded-img" src="pictures/iseo-lock.jpg" alt="ISEO-locks">
+                <ul>
+                    <li class="padding-7-0-5-3">Selling and mounting of cylinders, door locks and other high-end ISEO products</li>
+                </ul>
+            </article>
+        </div>
+        </section>
+
+        <footer class="grid" id="footer">
+            <div class="mapa-span">
+                <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2965.6862082719304!2d21.435917665807878!3d41.98554651666165!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x135415779ec4f561%3A0xe1b411a7d97bbebd!2z0JDQstGC0L7QutC70YPRh9Cw0YAg0J3QldCd0J4!5e0!3m2!1smk!2smk!4v1670538293255!5m2!1smk!2smk" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>        
+            </div>
+            <div class="center-div logo-foot">
+                <img class="img-big" src="pictures/neno-white-logo.png" alt="NENO">
+            </div>
+            <div class="info-foot">
+                <div>
+                <h2 id="contacts" >Contacts:</h2>
+                <ul>
+                    <li>Email: </li>
+                    <li class="no-deco padding-7-0-5-3"><a style="display: flex; justify-content: start; align-items: center;" href="mailto:nenoas1011@gmail.com"> <img style="max-height: 17px; padding-right: 3px;" src="pictures/email-symbol-white.png" alt="">nenoas1011@gmail.com</a></li>
+                    <li>Wearhouse Phone: </li>
+                    <li class="no-deco padding-7-0-5-3"><a style="display: flex; justify-content: start; align-items: center;" href="tel:+38976442791"><img style="max-height: 17px; padding-right: 3px;" src="pictures/phone-symbol-white.png" alt=""> +389 76/442-791 </a></li>
+                    <li>Workshop Phone: </li>
+                    <li class="no-deco padding-7-0-5-3"><a style="display: flex; justify-content: start; align-items: center;" href="tel:+38978339071"><img style="max-height: 17px; padding-right: 3px;" src="pictures/phone-symbol-white.png" alt=""> +389 78/339-071 </a></li>
+                    <li class="no-deco padding-7-0-5-3"><a style="display: flex; justify-content: start; align-items: center;" href="tel:+38978339072"><img style="max-height: 17px; padding-right: 3px;" src="pictures/phone-symbol-white.png" alt=""> +389 78/339-072 </a></li>
+                </div>
+            </div>
+            <div class="info-foot">
+                <div>
+                <h2>Working hours:</h2>
+                <ul>
+                    <li>Monday - Friday: </li>
+                    <li class="no-deco padding-7-0-5-3">08:00 - 20:00</li>
+                    <li>Saturday: </li>
+                    <li class="no-deco padding-7-0-5-3"> 08:00 - 16:00</li>
+                    <li>Sunday: </li>
+                    <li class="no-deco padding-7-0-5-3">Closed</li>
+                </ul>
+            </div>
+            </div>
+            <div class="copy-span center-div" style="background-color: black; padding: 10px;">
+                <p class="copyright">© Copyright 2023 <a target="_blank" href="https://www.instagram.com/stojanov.97/">Stojanov</a></p>
+            </div>
+        </footer>
+    </main>
+    <script src="scripts/carousel.js"></script>
+</body>
+<script src="scripts/animation.js"></script>
+</html>
