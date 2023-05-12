@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <form>
+            <label for="name">First name: </label><input required type="text" id="name"><br>
+            <label for="surname">Last name: </label><input required type="text" id="surname"><br>
+            <label for="email">Email: </label><input required type="email" id="email"><br>
+            <label for="pass">Password: </label><input required type="password" id="pass" minlength="10"><br>
+            <label for="pass2">Confirm password: </label><input required type="password" id="pass2" minlength="10"><br>
+            <fieldset>
+                <legend>Gender</legend>
+                <label for="man">Man</label><input type="radio" id="man" value="man">
+                <label for="woman">Woman</label><input type="radio" id="woman" value="woman">
+            </fieldset>
+            <label for="date">Date of birth: </label><input type="date" id="date"><br>
+            <input type="submit">
+        </form>
+    </body>
+</html>
