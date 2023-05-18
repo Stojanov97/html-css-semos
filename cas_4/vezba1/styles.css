@@ -1,0 +1,54 @@
+.container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 250px;
+    height: 300px;
+    background-color: blueviolet;
+    border-radius: 10px;
+}
+h3{
+    padding: 10px 0 0 0;
+    text-align: center;
+    color: #333;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 20px;
+}
+form{
+    width: 180px;
+    margin: 0 auto;
+}
+input{
+    width: 170px;
+    height: 22px;
+    margin-bottom: 10px;
+}
+.checkbox{
+    width: 12px;
+    height: 12px;
+    margin: 0 5px 20px 0;
+}
+label{
+    font-size: 15px;
+}
+.submit-btn{
+    width: 180px;
+    border-radius: 2px;
+    padding: 5px;
+    background-color: white;
+    border: none;
+    color: #505050;
+    font-weight: bold;
+}
+.submit-btn:hover{
+    background-color: rgb(102, 51, 150);
+    color: rgb(0, 255, 13);
+    cursor: pointer;
+}
+.forgot-pass{
+    text-align: center;
+    color: #333;
+    text-decoration: none;
+}

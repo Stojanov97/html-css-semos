@@ -1,0 +1,39 @@
+*{
+ margin: 0;   
+}
+
+
+
+/* element */
+a{
+    color: #000000;
+    text-decoration: none;
+}
+h1{
+    color: aqua;
+}
+/* id */
+#p{
+    border: 3px dotted #000000;
+}
+/* class */
+.klasa{
+    color: #000000;
+    font-size: 2ch;
+}
+.div-element, .div-element2{
+    width: 300px;
+    height: 80px;
+    border: 2px solid greenyellow;
+    margin: 10px 15px 1px;
+}
+#spec{
+    width: 500px;
+    height: 150px;
+    background-color: blueviolet;
+}
+/* .div-element2{
+    width: 300px;
+    height: 80px;
+    border: 1px solid black;
+} */

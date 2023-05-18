@@ -1,0 +1,45 @@
+*{
+    /* this is the default beahaviour */
+    /* box-sizing: content-box; */
+    /* Total width: 160px + 2*20px + 2*8px = 216px */
+    /* Total height: 80px + 2*20px + 2*8px = 136px */
+    /* Content box width: 160px */
+    /* COntent box height: 80px */
+    box-sizing: border-box;
+    /* Total Width: 160px */
+    /* Total Height: 80px */
+    /* Content box width: 160px - 2*20px - 2*8px = 104px */
+    /* Content box height 80px - 2*20px - 2*8px = 24px */
+}
+h1{
+    width: 400px;
+    padding: 20px;
+    border: 5px solid brown;
+    text-align: center;
+}
+#box{
+    width: 160px;
+    height: 80px;
+    padding: 20px;
+    border: 8px solid red;
+    background-color: yellow;
+}
+
+#big-box{
+    width: 400px;
+    height: 200px;
+    padding: 20px;
+    border: 10px solid green;
+    background-color: blue;
+    /* content box */
+    /* Total width: 460px */
+    /* Total height: 260px */
+    /* Content box width: 400px */
+    /* Content box height: 200px */
+    /* border box */
+    /* Total width: 400px */
+    /* Total height: 200px */
+    /* Content box width: 340px */
+    /* Content box height: 140px */
+    
+}
