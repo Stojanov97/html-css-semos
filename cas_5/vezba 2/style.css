@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #333;
+    color: white;
+    height: 80px;
+    text-align: center;
+}
+section{
+    border: 2px solid black;
+    margin: 20px 0;
+    padding: 40px;
+}
+ul{
+    background-color: #363636;
+    color: green;
+    list-style: square;
+    margin-top: 10px;
+    padding: 10px 0 5px 40px;
+}
+li{
+    width: 100px;
+}
+li:hover{
+    margin-top: 3px;
+    background-color: #454545;
+    color: lightgreen;
+    cursor: pointer;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    height: 60px;
+    text-align: center;
+}
