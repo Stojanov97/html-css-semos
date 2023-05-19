@@ -1,0 +1,32 @@
+.card{
+    width: 350px;
+    background-color: #eee;
+    border: 3px solid black;
+    border-radius: 10px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.card-top{
+    height: 320px;
+}
+.card-top>img{
+    width: 100%;
+    height: 100%;
+}
+.card-bottom{
+    padding: 15px;
+}
+.title-desc{
+    color: #888888;
+}
+a > h1{
+    font-size: 28px;
+    color: green;
+}
+.right-author{
+    float: right;
+}
+.left-tags a:hover{
+    color: red;
+    background-color: #cecece;
+}

@@ -5,8 +5,30 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        div{
+            width: 345px;
+            height: 75px;
+            background-color: lightblue;
+            border: black 12px solid;
+            padding: 0 20px;
+            /* box-sizing: content-box;
+            Total width: 345px + 2*20px + 2*12px = 409px 
+            Total height: 75px + 2*12px = 99px 
+            Content box width: 345px
+            Content box height: 75px
+            */
+            /* box-sizing: border-box;
+            Total Width: 345px
+            Total Height: 75px 
+            Content box width: 345px - 2*20px - 2*12px = 281px 
+            Content box height 75px - 2*12px = 51px 
+            */
+        }
+    </style>
 </head>
 <body>
-    
+    <div>
+    </div>
 </body>
 </html>

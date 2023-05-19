@@ -1,0 +1,65 @@
+.round-img{
+    border-radius: 50%;
+    border: 2px solid black;
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    opacity: 0.7;
+    transition: opacity 0.3s;
+    display: none;
+}
+.round{
+    position: relative;
+    left: -100px;
+}
+.round-img:hover{
+    opacity: 1;
+    border-radius: 49%;
+}
+.bike{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 50%;
+    overflow: hidden;
+    display: none;
+}
+
+.bck-img{
+    width: 500px;
+    height: 500px;
+    border: 1px solid black;
+    background-image: url("https://images.singletracks.com/blog/wp-content/uploads/2016/05/IMG_0108-1-1200x1085.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: none;
+}
+body{
+    /* background-image: url("https://thumbnails.mtb-news.de/cache/1200_640_1_1_0/ab/aHR0cHM6Ly93d3cuZW10Yi1uZXdzLmRlL25ld3Mvd3AtY29udGVudC91cGxvYWRzLzIwMjEvMTEvZ2lhbnQtdHJhbmNlLXgtZS1uZXVoZWl0LTIwMjItdGl0ZWwuanBn.jpg"); */
+    /* background-repeat: no-repeat; */
+    /* background-size: cover; */
+}
+
+.big-div{
+    width: 600px;
+    height: 500px;
+    background-color: rgb(117, 60, 170);
+    border: 5px solid black;
+}
+.big-div > div{
+    width: 150px;
+    height: 150px;
+}
+.div-red{
+    background-color: red;
+    float: right;
+}
+.div-green{
+    background-color: green;
+    float: left;
+}
+.div-blue{
+    background-color: blue;
+    float: right;
+}

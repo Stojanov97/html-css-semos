@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body{
+    background-image: url("https://wallpaperaccess.com/full/29022.jpg");
+}
+#form-container{
+    height: 60%;
+    aspect-ratio: 3/4;
+    color: white;
+    background-color: #363636;
+    opacity: 0.9;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+#form-container>h1{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+form{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
