@@ -1,0 +1,37 @@
+/* @media screen and (max-width: 786px) {
+  p {
+    color: red;
+  }
+} */
+/* @media screen and (min-width: 786px) {
+  p {
+    color: green;
+  }
+} */
+/* @media screen and (min-height: 600px) {
+  p {
+    color: yellow;
+  }
+} */
+.container {
+  display: flex;
+  gap: 10px;
+}
+.box {
+  width: 100px;
+  aspect-ratio: 1/1;
+  background-color: aquamarine;
+}
+@media screen and (max-width: 400px) {
+  .container {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 900px) {
+  .box {
+    color: blue;
+    font-size: 13px;
+    text-align: center;
+  }
+}
