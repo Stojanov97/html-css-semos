@@ -52,3 +52,12 @@ label{
     color: #333;
     text-decoration: none;
 }
+#hideShow{
+    position: absolute;
+    transform: translate(-130%);
+    height: 28px;
+    text-align: center;
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+}

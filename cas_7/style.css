@@ -1,0 +1,59 @@
+body{
+    height: 2000px;
+}
+div{
+    width: 150px;
+    aspect-ratio: 1/1;
+}
+.first{
+    background: red;
+}
+.second{
+    background: green;
+    /* position: fixed;
+    top: 200px;*/
+}
+.third{
+    background: blue;
+    /* position: sticky;
+    top: 0; */
+}
+
+.parent{
+    width: 500px;
+    aspect-ratio: 1/1;
+    background: rgb(170, 122, 215);
+    margin-top: 100px;
+    position: relative;
+}
+.child{
+    width: 200px;
+    aspect-ratio: 1/1;
+    background-color: rgb(81, 25, 135);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.container{
+    width: 500px;
+    aspect-ratio: 1/1;
+    background-color: aqua;
+    margin-top: 20px;
+    position: relative;
+}
+.container div{
+    width: 200px;
+    aspect-ratio: 1/1;
+    border-radius: 50%;
+    position: absolute;
+}
+.circle1{
+    background-color: rgb(164, 142, 113);
+    z-index: 0;
+    top: 20px;
+    left: 20px;
+}
+.circle2{
+    background-color: deeppink;
+}

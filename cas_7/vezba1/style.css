@@ -1,0 +1,20 @@
+div{
+    width: 300px;
+    aspect-ratio: 1/1;
+    position: absolute;
+}
+.yellow{
+    background-color: yellow;
+    z-index: 1;
+    top: 40px;
+    left: 40px;
+}
+.orange{
+    background-color: orange;
+    z-index: 2;
+    top: 80px;
+    left: 80px;
+}
+.purple{
+    background-color: purple;
+}

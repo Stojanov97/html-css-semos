@@ -1,0 +1,22 @@
+div {
+  aspect-ratio: 1/1;
+}
+.outer {
+  position: relative;
+  width: 600px;
+  background-color: #dfdfdf;
+}
+.inner {
+  position: absolute;
+  width: 150px;
+  background-color: #747474;
+}
+.middle {
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.right {
+  bottom: 0;
+  right: 0;
+}

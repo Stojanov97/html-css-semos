@@ -29,7 +29,7 @@ form{
     flex-direction: column;
 }
 .message{
-    resize: none;
+    resize: none; 
 }
 label, form>div{
     margin: 10px 0 4px 0;
