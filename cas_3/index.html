@@ -1,112 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>HTML Formi</title>
-    </head>
-    <body>
-        <form>
-            <input type="text" placeholder="name" value="" name="">
-            <br>
-            <label for="">Surname: </label>
-            <input type="text" placeholder="surename" value="" name="">
-            <br>
-            <!-- for="e-mail" will focus the input when the users click on the label cause of the id -->
-            <label for="e-mail">Email</label>
-            <br>
-            <input  type="email" name="email" id="e-mail">
-            <input type="password" placeholder="pass" name="">
-            <br>
-            <input type="file" name="send-file">
-            <input type="date">
-            <input type="number">
-            <br>
-            <br>
-            <label for="">Radio Button</label>
-            <input type="radio" name="radio">
-            <label for="">checkbox</label>
-            <input type="checkbox" name="checkbox" id="">
-        </form>
-        <br>
-        <form method="post" action="">
-            <h2>Login</h2>
-            <label for="">Name</label>
-            <input type="text" placeholder="name" name="name">
-            <br>
-            <label for="">Surname</label>
-            <input type="text" placeholder="surname" name="surname">
-            <br>
-            <label for="">Email</label>
-            <input required type="email" placeholder="email" name="email">
-            <br>
-            <button type="submit">oops</button>
-        </form> 
-        <!-- pr 3 -->
-        <br>
-        <br>
-        <form action="">
-            <h4>Q1</h4>
-            <label for="">A</label><input type="radio" name="radio-btn" value="A"><br>
-            <label for="">B</label><input type="radio" name="radio-btn" value="B"><br>
-            <label for="">C</label><input type="radio" name="radio-btn" value="C"><br>
-        </form>
-        <!-- pr 4 -->
-        <br><br>
-        <form action="">
-            <h4>Q2</h4>
-            <label for="">10</label><input type="checkbox" name="ckbx" value="10"><br>
-            <label for="">50</label><input type="checkbox" name="ckbx" value="50"><br>
-            <label for="">100</label><input type="checkbox" name="ckbx" value="100"><br>
-        </form>
+  <head>
+    <title>HTML Formi</title>
+  </head>
+  <body>
+    <form>
+      <input type="text" placeholder="name" value="" name="" />
+      <br />
+      <label for="">Surname: </label>
+      <input type="text" placeholder="surename" value="" name="" />
+      <br />
+      <!-- for="e-mail" will focus the input when the users click on the label cause of the id -->
+      <label for="e-mail">Email</label>
+      <br />
+      <input type="email" name="email" id="e-mail" />
+      <input type="password" placeholder="pass" name="" />
+      <br />
+      <input type="file" name="send-file" />
+      <input type="date" />
+      <input type="number" />
+      <br />
+      <br />
+      <label for="">Radio Button</label>
+      <input type="radio" name="radio" />
+      <label for="">checkbox</label>
+      <input type="checkbox" name="checkbox" id="" />
+    </form>
+    <br />
+    <form method="post" action="">
+      <h2>Login</h2>
+      <label for="">Name</label>
+      <input type="text" placeholder="name" name="name" />
+      <br />
+      <label for="">Surname</label>
+      <input type="text" placeholder="surname" name="surname" />
+      <br />
+      <label for="">Email</label>
+      <input required type="email" placeholder="email" name="email" />
+      <br />
+      <button type="submit">oops</button>
+    </form>
+    <!-- pr 3 -->
+    <br />
+    <br />
+    <form action="">
+      <h4>Q1</h4>
+      <label for="">A</label
+      ><input type="radio" name="radio-btn" value="A" /><br />
+      <label for="">B</label
+      ><input type="radio" name="radio-btn" value="B" /><br />
+      <label for="">C</label
+      ><input type="radio" name="radio-btn" value="C" /><br />
+    </form>
+    <!-- pr 4 -->
+    <br /><br />
+    <form action="">
+      <h4>Q2</h4>
+      <label for="">10</label
+      ><input type="checkbox" name="ckbx" value="10" /><br />
+      <label for="">50</label
+      ><input type="checkbox" name="ckbx" value="50" /><br />
+      <label for="">100</label
+      ><input type="checkbox" name="ckbx" value="100" /><br />
+    </form>
 
-        <!-- pr 5 -->
-        <br><br>
-        <form action="">
-            <select disabled name="" id="">
-                <option value="">A</option>
-                <option value="">B</option>
-                <option value="">C</option>
-            </select>
-        </form>
+    <!-- pr 5 -->
+    <br /><br />
+    <form action="">
+      <select disabled name="" id="">
+        <option value="">A</option>
+        <option value="">B</option>
+        <option value="">C</option>
+      </select>
+    </form>
 
-        <!-- pr 6 -->
-        <br><br>
-        <form action="">
-            <select name="" id="" multiple>
-                <optgroup label="Cars">
-                    <option value="">Audi</option>
-                    <option value="">BMW</option>
-                    <option value="">Mercedes</option>
-                </optgroup>
-                <optgroup label="Bikes">
-                    <option value="">Yamaha</option>
-                    <option value="">Honda</option>
-                    <option value="">Suzuki</option>
-            </select>
-        </form>
+    <!-- pr 6 -->
+    <br /><br />
+    <form action="">
+      <select name="" id="" multiple>
+        <optgroup label="Cars">
+          <option value="">Audi</option>
+          <option value="">BMW</option>
+          <option value="">Mercedes</option>
+        </optgroup>
+        <optgroup label="Bikes">
+          <option value="">Yamaha</option>
+          <option value="">Honda</option>
+          <option value="">Suzuki</option>
+        </optgroup>
+      </select>
+    </form>
 
-        <!-- pr 7 -->
-        <form action=""><textarea style="resize: none;" name="" id="" cols="40" rows="5"></textarea>
-        </form>
-        <!-- pr 8 -->
-        <form action="">
-            <fieldset>
-                <legend>Acc</legend>
-                <label for="">name</label>
-                <input type="text">
-                <br>
-                <label for="">pass</label>
-                <input type="password">
-            </fieldset>
-        </form>
+    <!-- pr 7 -->
+    <form action="">
+      <textarea
+        style="resize: none"
+        name=""
+        id=""
+        cols="40"
+        rows="5"
+      ></textarea>
+    </form>
+    <!-- pr 8 -->
+    <form action="">
+      <fieldset>
+        <legend>Acc</legend>
+        <label for="">name</label>
+        <input type="text" />
+        <br />
+        <label for="">pass</label>
+        <input type="password" />
+      </fieldset>
+    </form>
 
-        <!-- pr 9 -->
-        <div>
-            <img src="img/cat.jpg" alt="katze">
-            <p>nemozam da veruvam</p>
+    <!-- pr 9 -->
+    <div>
+      <img src="img/cat.jpg" alt="katze" />
+      <p>nemozam da veruvam</p>
     </div>
 
-        <span>thi is span</span>
-        <p><span style="color: red;">this</span> is a long message</p>
-        
-    </body>
+    <span>thi is span</span>
+    <p><span style="color: red">this</span> is a long message</p>
+  </body>
 </html>
